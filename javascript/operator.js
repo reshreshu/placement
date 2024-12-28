@@ -59,8 +59,6 @@ console.log(!a); // false
 console.log(!b); // true
 
 
-
-
 // Bitwise operators
 a = 5; // 0101 in binary
 b = 3; // 0011 in binary
