@@ -75,6 +75,7 @@ console.log(a ^ b); // 6 (0101 ^ 0011 = 0110)
 // Bitwise right shift (>>)
 console.log(a >> 1); // 2 (0101 >> 1 = 0010)
 
+
 // Bitwise left shift (<<)
 console.log(a << 1); // 10 (0101 << 1 = 1010)
 
