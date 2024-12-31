@@ -7,6 +7,9 @@ import Navbar from './componentss/function/Navbar';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import './assets/css/Home.css';
 import './assets/css/Navbar.css';
+import "./assets/css/Contact.css";
+import UseEffect from './componentss/function/UseEffect';
+
 function App() {
   return (
     <div>
@@ -17,6 +20,7 @@ function App() {
         <Route path="/about" element ={<About college="kongu engineering college" clg1="naturopathy" clg2="polytechnic"/>} />
         <Route path="/gallery" element ={<Gallery/>} />
         <Route path="/contact" element ={<Contact/>} />
+        <Route path="/use-effect" element ={<UseEffect/>} />
       </Routes>
       </BrowserRouter>
      
