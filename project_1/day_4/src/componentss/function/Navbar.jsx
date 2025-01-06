@@ -12,8 +12,6 @@ var Navbar=()=>{
                     <li className="li"><Link to='/use-ref'>UseRef</Link></li>
                     <li className="li"><Link to='/use-context'>UseContext</Link></li>
                     <li className="li"><Link to='/use-memo'>UseMemo</Link></li>
-                    <li className="li"><Link to='/SignUp'>signup</Link></li>
-                    <li className="li"><Link to='/Login'>Login</Link></li>
                 </ul>
             </nav>
         </header>
